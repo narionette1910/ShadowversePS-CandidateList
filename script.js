@@ -51,7 +51,7 @@ const players = [
     note:"https://note.com/eunggeon"
   },
   {
-    name: "Hirobosu",
+    name: "hirobosu",
     image: "画像/Hirobosu.jpg",
     bio: `実績
     ・最終ビヨ11回(5位以内1回)
