@@ -51,8 +51,8 @@ const players = [
     note:"https://note.com/eunggeon"
   },
   {
-    name: "hirobosu",
-    image: "画像/Hirobosu.jpg",
+    name: "Hirobosu",
+    image: "画像/hirobosu.jpg",
     bio: `実績
     ・最終ビヨ11回(5位以内1回)
     ・RAGE 2024 Summer ベスト4
