@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ShadowversePS 候補一覧</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Noto+Sans+JP:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <div class="header-left">
+        <div class="team-label">Premier Series</div>
+        <h1>CANDIDATE<br><span>LIST</span></h1>
+        <p class="header-desc">シャドバPSを盛り上げる候補一覧</p>
+    </div>
+</header>
+
+<div class="grid-wrap">
+    <div class="result-bar" id="result-bar"></div>
+    <div class="player-grid" id="grid"></div>
+    <div class="pagination-container" id="pagination"></div>
+</div>
+
+<div class="modal-overlay" id="modal-overlay">
+    <div class="modal" id="modal">
+        <button class="modal-close" id="modal-close-btn">&times;</button>
+
+        <div class="modal-header">
+            <div class="modal-avatar-lg" id="modal-avatar"></div>
+            <div class="modal-meta">
+                <div class="modal-name" id="modal-name"></div>
+            </div>
+        </div>
+
+        <div class="modal-body">
+            <div class="modal-bio" id="modal-bio"></div>
+            <div class="modal-links" id="modal-links"></div>
+        </div>
+    </div>
+</div>
+
+<script src="script.js" defer></script>
+</body>
+</html>
