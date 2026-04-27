@@ -36,7 +36,7 @@ const players = [
   },
   {
     name: "Hirobosu",
-    image: "Images/Hirobosu.jpg",
+    image: "Images/hirobosu.jpg",
     bio: `実績
     ・最終ビヨ11回(5位以内1回)
     ・RAGE 2024 Summer ベスト4
